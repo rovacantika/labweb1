@@ -1,0 +1,58 @@
+##Jawab Pertanyaan Berikut
+1. Lakukan perubahan pada kode sesuai dengan keinginan anda, amati perubahannya adakah
+   error ketika terjadi kesalahan penulisan tag?
+2. Apa perbedaan dari tag <p> dengan tag <br>, berikan penjelasannya!
+3. Apa perbedaan atribut title dan alt pada tag <img>, berikan penjelasannya!
+4. Untuk mengatur ukuran gambar, digunakan atribut width dan height. Agar tampilan gambar
+   proporsional sebaiknya kedua atribut tersebut diisi semua atau tidak? Berikan penjelasannya!
+5. Pada link tambahkan atribut target dengan nilai atribut bervariasi ( _blank, _self, _top,
+ _parent ), apa yang terjadi pada masing-masing nilai antribut tersebut?
+
+## JAWABAN
+1. tidak ada kesalahan selama pembuatan kode
+2. Tag <p> dan <br> memiliki fungsi yang berbeda dalam HTML:
+   Tag <p>:
+     1.Digunakan untuk membuat paragraf teks.
+     2.Menambahkan margin atas dan bawah secara otomatis.
+     3.Merupakan elemen blok, artinya dimulai pada baris baru.
+     4.Memiliki tag penutup </p>.
+   Tag <br>:
+     1.Digunakan untuk membuat pemisah baris (line break).
+     2.Tidak menambahkan margin tambahan.
+     3.Merupakan elemen inline, tidak memulai baris baru kecuali untuk pemisahan yang diinginkan.
+ 4.Merupakan tag tunggal, tidak memiliki tag penutup.
+   Perbedaan utama adalah <p> digunakan untuk membuat paragraf lengkap, sementara <br> hanya untuk memisahkan baris dalam teks yang sama.
+
+3. Atribut title dan alt pada tag <img> memiliki fungsi yang berbeda:
+    Atribut alt (alternative text):
+      1.Digunakan untuk memberikan deskripsi tekstual dari gambar.
+      2.Ditampilkan jika gambar gagal dimuat atau tidak dapat ditampilkan.
+      3.Penting untuk aksesibilitas, membantu pengguna dengan pembaca layar memahami konten gambar.
+      4.Digunakan oleh mesin pencari untuk mengindeks gambar.
+    Atribut title:
+      1.Memberikan informasi tambahan tentang gambar.
+      2.Ditampilkan sebagai tooltip saat kursor mouse diarahkan ke gambar.
+      3.Tidak sepenting alt untuk aksesibilitas dan SEO.
+      4.Bisa digunakan untuk memberikan konteks tambahan atau keterangan menarik.
+  Ringkasnya, alt lebih penting untuk aksesibilitas dan SEO, sedangkan title memberikan informasi tambahan yang 
+  opsional untuk pengguna yang dapat melihat gambar.
+
+4. Untuk menampilkan gambar secara proporsional di sebuah halaman web, 
+  sebaiknya tidak mengisi kedua atribut width dan height secara bersamaan jika ukuran gambar asli tidak diketahui.
+  jika width dan height diisi keduanya:
+     - Gambar akan dipaksa menyesuaikan ukuran sesuai dengan nilai yang diberikan, 
+      yang dapat menyebabkan distorsi jika aspek rasio gambar asli berbeda.
+  Jika hanya width atau height yang diisi:
+    - Browser akan otomatis menghitung dimensi lainnya sesuai dengan rasio asli dari gambar tersebut, sehingga gambar tidak terdistorsi.
+
+5. target="_blank":
+     -Link akan dibuka di tab atau jendela browser baru.
+ target="_self":
+     -Ini adalah nilai default jika atribut target tidak ditentukan.
+     -Link akan dibuka di jendela atau tab yang sama dengan halaman saat ini.
+   target="_top":
+     -Link akan dibuka di jendela utama browser, menggantikan semua frame jika ada.
+     -Jika halaman tidak berada dalam frame, perilakunya sama dengan "_self".
+   target="_parent":
+     -Link akan dibuka di frame induk dari frame saat ini.
+     -Jika tidak ada frame induk (halaman berada di level teratas), perilakunya sama dengan "_self".
